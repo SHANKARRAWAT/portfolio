@@ -3,21 +3,22 @@ import './WorkCardStyle.css'
 import React from 'react'
 import news from '../assests/news.jpg'
 import { NavLink } from 'react-router-dom'
-const WorkCard = (props) => {
+const WorkCard = () => {
   return (
 
+    <div className="project-container">
              
     <div className="project-card">
     <img src={props.imgsrc} alt="img not found"  />
         <h2 className='project-title'>
-           {props.title}
+            project title
         </h2>
         <div className="pro-details">
-            <p>{props.text}</p>
+            <p>this is text</p>
       
         <div className="pro-btns">
-            <NavLink to={props.view} className="btn">
-                view
+            <NavLink to="url.com" className="btn">
+                 view
              </NavLink>
 
        
@@ -26,6 +27,7 @@ const WorkCard = (props) => {
     </div>
     </div>
 
+ </div>
   )
 }
 

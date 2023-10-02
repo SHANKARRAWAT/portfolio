@@ -14,8 +14,7 @@ import './HeroimgStyle.css';
             <h1>web developer.</h1>
             <div>
                 <Link to="/project" className='btn'>projects</Link>
-
-                <Link to="/project" className='btn btn-light'>contact</Link>
+                <Link to="/contact" className='btn btn-light'>contact</Link>
             </div>
          </div>
      </div>

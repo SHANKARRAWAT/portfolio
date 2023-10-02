@@ -39,7 +39,7 @@ const Footer = () => {
         
          <div className="right">
             <h4>About Myself</h4>
-            <p>I  am shankar rawat and B.Tech graduate in CSE from DIT University haivng knowledge in web development and basic Java development.</p>
+            <p>I  am shankar rawat and B.Tech graduate in CSE from DIT University having knowledge in web development and basic Java development.</p>
             <div className="social">
                 <h4>
             <FaLinkedin size={20} style={{color:'#fff',  marginRight:'2rem'}}/>
