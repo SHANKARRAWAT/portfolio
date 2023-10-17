@@ -1,2 +1,2 @@
 # Portfolio
-this is my portfolio website  using react.js 
+This is my portfolio website It has all the details about me
