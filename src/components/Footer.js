@@ -42,7 +42,9 @@ const Footer = () => {
             <p>I  am shankar rawat and B.Tech graduate in CSE from DIT University having knowledge in web development and basic Java development.</p>
             <div className="social">
                 <h4>
-            <FaLinkedin size={20} style={{color:'#fff',  marginRight:'2rem'}}/>
+              
+              
+             <a href="https://www.linkedin.com/in/shankar-rawat-1892bb209/">  <FaLinkedin size={20} style={{color:'#fff',  marginRight:'2rem'}}/></a>
             <FaFacebook size={20} style={{color:'#fff',  marginRight:'2rem'}}/>
             <FaTwitter size={20} style={{color:'#fff',  marginRight:'2rem'}}/>
             </h4>
