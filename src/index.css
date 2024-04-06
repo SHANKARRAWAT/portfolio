@@ -1,26 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-body{
+body {
   background: black;
 }
 
-h1,h4,p,a{
+h1,
+h4,
+p,
+a {
   color: #ffff;
   text-decoration: none;
-
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
-.btn{
+.btn {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -31,14 +33,13 @@ ul{
   cursor: pointer;
 }
 
-.btn-light{
-  background: transparent;
-  color: white;
+.btn-resume {
+  /* background: transparent; */
+  color: #333;
 }
 
-.btn:hover{
+.btn:hover {
   background: rgb(115, 128, 35);
   color: white;
   transition: 0.3s;
 }
-

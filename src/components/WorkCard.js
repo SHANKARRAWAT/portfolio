@@ -3,7 +3,7 @@ import './WorkCardStyle.css'
 import React from 'react'
 // import news from '../assests/news.jpg'
 
-import { NavLink } from 'react-router-dom'
+import { NavLink} from 'react-router-dom'
 const WorkCard = (props) => {
   return (
 
